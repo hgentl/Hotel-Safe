@@ -1,5 +1,6 @@
 # Project Outline
 This project was submitted as part of the M250 Object-Oriented Java Programming module at The Open University. It introduces fundamental object-oriented concepts by modelling the behaviour of a hotel room safe, including its internal state, user interactions, and stored contents.
+
 ---
 ## Key Concepts
 * Object-oriented modelling
@@ -31,20 +32,23 @@ The safe's application logic is separated from the user-facing functionality, cr
 Every Safe object contains a SafeState object, demonstrating composition. Separating responsibilities in this way improves flexibility and promotes loose coupling between the classes.
 ### Delegation
 The Safe class delegates locking operations to the SafeState object, keeping responsibilities separated and improving the code's readability and maintainability.
+
 ---
 ## Project Structure
+```
 src/
 ├── Safe.java
 ├── SafeState.java
 └── Main.java (portfolio demonstration)
+```
 ---
 ## Note
 This project was originally developed using BlueJ as part of a university module focused on object-oriented design rather than building complete Java applications.
 
 To make the project easier to explore outside the university environment, I have added a small Main.java class that demonstrates the core functionality. The demonstration is intended to showcase the design of the classes rather than every aspect of the original assignment.
+
 ---
 ## Reflection
 This project was my first experience of designing interacting classes rather than writing procedural code. It helped me understand how responsibilities can be divided between objects, with the Safe class representing the public interface and the SafeState class encapsulating the internal behaviour and validation logic.
 
 One thing I found particularly interesting about this project was seeing how behaviour can be modelled through interacting objects. It helped me appreciate how well-defined responsibilities can make systems easier to understand, extend, and maintain.
----
