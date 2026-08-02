@@ -10,7 +10,7 @@ This project was submitted as part of the M250 Object-Oriented Java Programming 
 * Collections and iteration
 ---
 ## Features
-The assingment scenario was to develop software for a hotel safe which allows hotel guests and staff to enter a code in order to open, close, or lock the safe.
+The assignment scenario was to develop software for a hotel safe which allows hotel guests and staff to enter a code in order to open, close, or lock the safe.
 ### Safe
 * Stores the hotel gest's items 
 * Contains methods to modify the safe's content
@@ -23,10 +23,10 @@ The assingment scenario was to develop software for a hotel safe which allows ho
 * Supports a master override code
 ---
 ## OOP Concepts Demonstrated
-This project explored the fundamental  priciples of OOP and Java including:
+This project explored the fundamental  principles of OOP and Java including:
 ### Encapsulation
-Objects manage their own internal state through public methods, which are definefd in each class. This allows other objects to interact with them without direct access to their private state.
-### Abstraction & mMdulaisation
+Objects manage their own internal state through public methods, which are defined in each class. This allows other objects to interact with them without direct access to their private state.
+### Abstraction & Modularisation
 The safe's application logic is separated from the user-facing functionality, creating modular components that interact through well-defined interfaces. This improves readability, maintainability, and reusability.
 ### Composition
 Every Safe object contains a SafeState object, demonstrating composition. Separating responsibilities in this way improves flexibility and promotes loose coupling between the classes.
