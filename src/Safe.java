@@ -32,6 +32,17 @@ public class Safe
     
     /**
      * 
+     * Gets the Safe's Display
+     * 
+     * @return returns this SafeStates display feild
+     */
+    public String getDisplay()
+    {
+        return state.getDisplay();
+    }
+
+    /**
+     * 
      * Adds an item to the safe.
      * 
      * @param itemName, represent the items to be added
