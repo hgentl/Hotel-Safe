@@ -52,3 +52,8 @@ To make the project easier to explore outside the university environment, I have
 This project was my first experience of designing interacting classes rather than writing procedural code. It helped me understand how responsibilities can be divided between objects, with the Safe class representing the public interface and the SafeState class encapsulating the internal behaviour and validation logic.
 
 One thing I found particularly interesting about this project was seeing how behaviour can be modelled through interacting objects. It helped me appreciate how well-defined responsibilities can make systems easier to understand, extend, and maintain.
+
+### Future Improvements
+At present, the Safe class allows its contents to be modified regardless of whether the safe is locked. If I revisited this project today, I would enforce the safe's state before allowing items to be added or removed, ensuring the behaviour more closely reflects a real-world hotel safe.
+
+---
