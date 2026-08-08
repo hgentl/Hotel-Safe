@@ -40,6 +40,8 @@ src/
 ├── Safe.java
 ├── SafeState.java
 └── Main.java (portfolio demonstration)
+README.md
+.gitignore
 ```
 ---
 ## Note
