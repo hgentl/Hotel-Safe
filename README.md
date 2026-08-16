@@ -29,9 +29,9 @@ Objects manage their own internal state through public methods, which are define
 ### Abstraction & Modularisation
 The safe's application logic is separated from the user-facing functionality, creating modular components that interact through well-defined interfaces. This improves readability, maintainability, and reusability.
 ### Composition
-Every Safe object contains a SafeState object, demonstrating composition. Separating responsibilities in this way improves flexibility and promotes loose coupling between the classes.
+Every `Safe` object contains a `SafeState` object, demonstrating composition. Separating responsibilities in this way improves flexibility and promotes loose coupling between the classes.
 ### Delegation
-The Safe class delegates locking operations to the SafeState object, keeping responsibilities separated and improving the code's readability and maintainability.
+The `Safe` class delegates locking operations to the `SafeState` object, keeping responsibilities separated and improving the code's readability and maintainability.
 
 ---
 ## Project Structure
